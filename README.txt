@@ -1,23 +1,9 @@
-Java Web Starter 
+EarthFace is a web application that lets you visualize any type of data geographically as a heat map!
 
-This Java Web Starter application demonstrates how to use IBM Data Cache Java Native APIs in a Java Web application and deploy it on Bluemix.
+Description
 
-Files
+Our project seeks to bring awareness to all people about their surroundings. Often times, we are oblivious to the various phenomena that are constantly occurring all around us. Tapping into the plethora of information made available from NASA Earth Observations (NEO), EarthFace can transform data for things ranging from carbon monoxide levels to land surface temperatures, into heat maps for any specified region. Using your GPS location, EarthFace will generate a visualization of all the information about your general vicinity, opening your eyes to a bigger world.
 
-The Java Web Starter application contains the following contents:
+Project Information
 
-*   cacheSampleJavaNativeAPIs.war
-
-    This WAR file is actually the application itself. It is the only file that'll be pushed and run on the Bluemix. Every time your application code is updated, you'll need to regenerate this WAR file and push to Bluemix again. See the next section on detailed steps.
-    
-*   WebContent/
-
-    This directory contains the client side code (HTML/CSS/JavaScript) of your application as well as compiled server side java classes and necessary JAR libraries.
-    
-*   src/
-
-    This directory contains the server side code (JAVA) of your application.
-    
-*   build.xml
-
-    This file allows you to easily build your application using Ant.
+License: MIT license (MIT)
